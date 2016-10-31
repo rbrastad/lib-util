@@ -74,7 +74,7 @@ exports.getPath = function (contentKey) {
  * Returns a list of ancestors.
  *
  * @param {object} params - JSON with the parameters.
- * @param {object} [params.content = getContent()] - Content (as JSON) to find anscestors of.
+ * @param {object} [params.content = getContent()] - Content (as JSON) to find ancestors of.
  * @param {Array} [params.contentTypes = [`${app.name}:page`,'portal:site']] - Content types to filter on.
  * @param {Number} [params.count = -1] - Number of contents to fetch.
  * @param {string} [params.sort = '_path ASC'] - Sorting expression.
